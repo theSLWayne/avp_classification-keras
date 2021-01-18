@@ -40,4 +40,4 @@ model.compile(optimizer = tf.keras.optimizers.Adam(learning_rate = 0.0001), loss
 model.fit(x = train_batches, epochs = 10, verbose = 2, callbacks = [callbacks])
 
 # Save the model
-model.save("tf_model.h")
+model.save("tf_model.h5")
