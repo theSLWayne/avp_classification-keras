@@ -1,7 +1,7 @@
-import tensorflow as tf
-import warnings
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-warnings.simplefilter(action = 'ignore', category = FutureWarning)
+import tensorflow as tf
 
 # Set the path to training data
 train_path = 'archive/data/train'
